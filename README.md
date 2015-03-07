@@ -5,5 +5,5 @@ General Architecture:
 
 - GeoReport services and services definitions can be specified as YML or JSON in the repository and either servied directly or rendered first via Jekyll
 - GeoReport requests are stored as YML in issues
-- Any non-public information in a request is encrypted with an endpoint owner's private key, but the encrypted values are publicly accessible
+- Any non-public information in a request is encrypted with an endpoint owner's public key, but the encrypted values are publicly accessible
 - Requests can be created directly via the GitHub Issues interface and the adapter will still support minimal mapping to the GeoReport spec
